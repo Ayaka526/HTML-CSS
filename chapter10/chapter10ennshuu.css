@@ -1,0 +1,159 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+.clearfix::after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+/*--------------------HEADER------------------------*/
+header{
+	width:100%;
+	height:70px;
+	background-color:#EC715F;
+}
+
+nav{
+	width:1024px;
+	height:70px;
+	margin:0 auto;
+}
+.header-logo{
+	margin-left:90px;
+	float:left;
+}
+img{
+	height:70px;
+	vertical-align: bottom;
+}
+
+.header-item{
+	list-style: none;
+	float:right;
+	line-height:70px;
+	padding:0 30px;
+	font-size:16px;
+	color:#FAFAFA;
+}
+
+/*--------------------MAIN------------------------*/
+
+
+.main-picture{
+	height:650px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+
+.main-title{
+	font-size:64px;
+	color:#FAFAFA;
+	text-align: center;
+	position:absolute;
+	top:280px;
+	right:470px;
+
+}
+
+.main-text{
+	font-size:20px;
+	color:#FAFAFA;
+	text-align: center;
+	position:absolute;
+	top:360px;
+	right:522px;
+	font-family:"serief";
+}
+
+
+/*--------------------PORTFOLIO------------------------*/
+
+
+.portfolio-container{
+	margin:90px auto;
+}
+
+
+.portfolio-title{
+	text-align: center;
+	font-size:32px;
+	color:#00000;
+	display:block;
+	margin:90px 0 8px 0;
+}
+
+.p-border{
+	border-bottom:2px solid #EC715F;
+	display:block;
+	margin: 0 auto;
+	width:70px;
+	height:3px;
+
+
+
+}
+
+.portfolio-text{
+	text-align: center;
+	font-size:16px;
+	color:#00000;
+	margin:30px auto;
+}
+
+/*隙間が空く原因を聞く！*/
+
+.portfolio-container2{
+	margin:0 auto;
+	height:510px;
+	width:920px;
+	margin-bottom:90px;
+}
+
+.box1{
+	width:300px;
+	height:250px;
+	float:left;
+	margin-right:10px;
+
+}
+.box2{
+	width:300px;
+	height:250px;
+	float:left;
+	margin-right:10px;
+}
+.box3{
+	width:300px;
+	height:250px;
+	float:left;
+	
+}
+.box4{
+	width:300px;
+	height:250px;
+	float:left;
+	margin-right:10px;
+	margin-top:10px;
+}
+.box5{
+	width:300px;
+	height:250px;
+	float:left;
+	margin-right:10px;
+	margin-top:10px;
+}
+.box6{
+	width:300px;
+	height:250px;
+	float:left;
+	margin-top:10px;
+	
+}
+
+
+/*--------------------FEATURE------------------------*/
